@@ -1,0 +1,12 @@
+#bar {
+  background-color: #3d3c3c;
+  border-radius: 14px;
+  padding: 0;
+  height: 50px;
+  margin: 0px 35px;
+}
+#header {
+  color: #01ff70;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}

@@ -1,0 +1,11 @@
+.most-outer-layout {
+  height: 100vh;
+}
+
+.layout-content {
+  padding: 24px;
+
+  background-color: #ededed !important;
+
+  overflow: auto;
+}

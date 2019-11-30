@@ -1,0 +1,30 @@
+.sider-container {
+  background-color: #496075 !important;
+}
+
+.sider-logo {
+  font-size: 40px !important;
+
+  margin-top: 56px;
+  margin-bottom: 120px !important;
+}
+
+.sider-menu {
+  background-color: transparent !important;
+
+  border-right: none !important;
+}
+
+.sider-menu-item {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 18px !important;
+}
+
+.sider-icon {
+  font-size: 18px !important;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.main-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 24px;
+}
+
+.main-title {
+  font-size: 32px;
+  font-weight: 700;
+
+  color: black;
+}
+
+.main-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

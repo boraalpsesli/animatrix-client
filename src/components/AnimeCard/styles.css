@@ -1,0 +1,84 @@
+.animes-card {
+  width: 232px !important;
+  background-color: transparent !important;
+
+  margin-bottom: 20px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+
+  border: 2px solid black;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.animes-card .ant-card-body {
+  padding: 0px !important;
+  width: 232px !important;
+}
+
+.anime-card-img {
+  width: 232px;
+  height: 232px;
+
+  margin-bottom: 12px;
+}
+
+.anime-card-content-container {
+  padding: 0px 6px;
+}
+
+.anime-title {
+  font-size: 24px;
+  font-weight: 700;
+
+  color: black;
+
+  margin-bottom: 6px;
+}
+
+.genre-score-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 12px;
+}
+
+.genre-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.rating-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.anime-desc {
+  height: 40px;
+  overflow: hidden;
+
+  word-wrap: break-word;
+  margin-bottom: 12px;
+}
+
+.favorite-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.favorite-button {
+  background-color: #496075 !important;
+
+  color: white !important;
+
+  margin-bottom: 12px;
+}
+
+.delete-button {
+  background-color: red !important;
+
+  color: white !important;
+
+  margin-bottom: 12px;
+}

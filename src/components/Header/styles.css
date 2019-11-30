@@ -1,0 +1,18 @@
+.header-container {
+  z-index: 10;
+  height: 64px !important;
+  background-color: #f3f3f3 !important;
+
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-more-icon {
+  margin-left: 16px;
+  font-size: 24px;
+}

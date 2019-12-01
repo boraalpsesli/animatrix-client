@@ -1,5 +1,6 @@
-import React, { useCallback } from "react";
-import { Form, Input, Icon, Button, Row, Col, message } from "antd";
+import React, { useCallback } from "react"; 
+import { Form, Input, Icon, Button, Row, Col, message } from "antd"; //An Open source React UI library for some components Ant Design
+
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 

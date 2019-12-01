@@ -1,6 +1,7 @@
 import React from "react";
-import { Layout, Icon } from "antd";
-import { useSelector } from "react-redux";
+import { Layout, Icon } from "antd"; //An Open source React UI library for some components Ant Design
+
+import { useSelector } from "react-redux"; //this useSelector function allows us to get Redux store state
 
 import "./styles.css";
 

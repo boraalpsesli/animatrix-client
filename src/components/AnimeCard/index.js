@@ -1,5 +1,6 @@
 import React from "react";
-import { Card, Button } from "antd";
+import { Card, Button } from "antd"; //An Open source React UI library for some components Ant Design
+
 
 import "./styles.css";
 

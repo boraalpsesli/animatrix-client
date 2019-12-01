@@ -1,7 +1,8 @@
 import React, { useCallback } from "react";
-import { Form, Input, Icon, Button, Row, Col, message } from "antd";
-import { useHistory } from "react-router-dom";
-import { useDispatch } from "react-redux";
+import { Form, Input, Icon, Button, Row, Col, message } from "antd"; //An Open source React UI library for some components Ant Design
+
+import { useHistory } from "react-router-dom"; //Routes via using history object in react router dom
+import { useDispatch } from "react-redux"; //it allows us to trigger an action in redux
 
 import { tryLogin } from "../../../redux/auth/api";
 import "../styles.css";
@@ -28,7 +29,7 @@ function Login({ form }) {
       });
     },
     [form, dispatch, history]
-  );
+  ); //it allows us to define function like classful function
 
   return (
     <>
@@ -52,7 +53,9 @@ function Login({ form }) {
           </Form.Item>
           <Form.Item label="Password">
             {getFieldDecorator("password", {
-              rules: [{ required: true, message: "Please input your Password!" }]
+              rules: [
+                { required: true, message: "Please input your Password!" }
+              ]
             })(
               <Input
                 className="auth-input"

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; //instead of whole page reloading we can use router  inorder to reload components
 
 import BaseLayout from "./components/BaseLayout";
 import Login from "./pages/Auth/Login";
